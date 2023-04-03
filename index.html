@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Curso Web</title>
+</head>
+<body>
+
+    <form action="" method="get">
+        
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required autofocus size="30" maxlength="20" placeholder="Escriba su nombre."> <br>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Escriba su mail."> <br>
+
+            <label for="psw">Contraseña:</label>
+            <input type="password" id="psw" name="psw" maxlength="8" placeholder="Escriba su contraseña."> <br>
+
+            <label for="url">Url:</label>
+            <input type="url" id="url" name="url" placeholder="Escribe la URL"> <br>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha"> <br>
+
+            <label for="tiempo">Tiempo:</label>
+            <input type="time" id="tiempo" name="tiempo"> <br>
+
+            <label for="fechora">Fecha y hora:</label>
+            <input type="datetime-local" id="fechora" name="fechora"> <br>
+
+            <label for="mes">Mes:</label>
+            <input type="month" id="mes" name="mes"> <br>
+
+            <label for="semana">Semana:</label>
+            <input type="week" id="semana" name="semana"> <br>
+
+            <label for="numero">Número:</label>
+            <input type="number" id="numero" name="numero" min="-10" max="10"> <br>
+
+            <label for="tlf">Teléfono:</label>
+            <input type="tel" id="tlf" name="tlf"> <br>
+
+            <label for="buscar">Buscar:</label>
+            <input type="search" id="buscar" name="buscar"> <br>
+
+            <label for="color">Color favorito:</label>
+            <input type="color" id="color" name="color"> <br>
+
+            <label for="edad">Edad:</label>
+            <input type="range" id="edad" name="edad" min="18" max="65"> <br>
+
+                Bloque favorito:
+            <label for="blq3">Bloque 3</label>
+            <input type="radio" id="blq3" name="bloque" value="3">
+            <label for="blq4">Bloque 4</label>
+            <input type="radio" id="blq4" name="bloque" value="4" checked> <br>
+
+                Bloque favorito: <br>
+            <label for="b3t5">B3 T5</label>
+            <input type="checkbox" id="b3t5" name="fav" value="B3T5"> <br>
+            <label for="b3t6">B3 T6</label>
+            <input type="checkbox" id="b3t6" name="fav" value="B3T6"> <br>
+            <label for="b3t7">B3 T7</label>
+            <input type="checkbox" id="b3t7" name="fav" value="B3T7"> <br>
+            <label for="b3t8">B3 T8</label>
+            <input type="checkbox" id="b3t8" name="fav" value="B3T8"> <br>
+            <label for="b2t4">B2 T4</label>
+            <input type="checkbox" id="b2t4" name="fav" value="B2T4" checked> <br>
+
+
+            <select>
+                <option value="" selected>Seleccione un tema</option>
+                    <optgroup label="Bloque 1">
+                        <option value="B1T1">B1T1</option>
+                        <option value="B1T2">B1T2</option>
+                        <option value="B1T3">B1T3</option>
+                    </optgroup>
+
+                <optgroup label="Bloque 2">
+                    <option value="B2T2">B2T2</option>
+                    <option value="B2T4">B2T4</option>
+                    <option value="B2T5">B2T5</option>
+                </optgroup>
+
+                <optgroup label="Bloque 3">
+                <option value="B3T1">B3T1</option>
+                <option value="B3T2">B3T2</option>
+                <option value="B3T3">B3T3</option>
+                </optgroup>
+            </select>
+                    
+            <br>
+
+            <label for="observa">Observaciones:</label>
+            <br>
+            <textarea id="observa" name="obsv" rows="30" cols="20"></textarea> <br>
+
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
